@@ -25,9 +25,6 @@ Gradio for the front-end interface
 PDF Document Loaders
 Vector Databases and Retrieval Systems
 
-
-Aquí tienes las instrucciones de instalación para tu repositorio:  
-
 ---
 
 ## Installation Guide  
