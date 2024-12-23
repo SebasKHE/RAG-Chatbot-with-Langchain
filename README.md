@@ -27,23 +27,19 @@ Vector Databases and Retrieval Systems
 
 
 Installation Guide
-Step 1: Clone the Repository
+
 Clone the repository to your local machine:
 
-bash
-Copiar código
 git clone https://github.com/sebaskhe/RAG-Chatbot_with_Langchain.git  
-cd your-repo-name  
+cd RAG-Chatbot_with_Langchain
+
 Step 2: Set Up a Virtual Environment
 Setting up a virtual environment helps manage dependencies for this project.
 
 Install virtualenv (if not already installed):
-bash
-Copiar código
+
 pip install virtualenv  
 Create a virtual environment named my_env:
-bash
-Copiar código
 virtualenv my_env  
 Activate the virtual environment:
 On Linux/macOS:
@@ -51,14 +47,12 @@ bash
 Copiar código
 source my_env/bin/activate  
 On Windows:
-bash
-Copiar código
+
 my_env\Scripts\activate  
 Step 3: Install Required Libraries
 Install the necessary dependencies in the virtual environment:
 
-bash
-Copiar código
+
 python3.11 -m pip install \  
 gradio==4.44.0 \  
 ibm-watsonx-ai==1.1.2 \  
@@ -73,8 +67,7 @@ With the environment set up and dependencies installed, you're ready to run the 
 
 Ensure the virtual environment is active.
 Execute the main script:
-bash
-Copiar código
+
 python3.11 qabot.py  
 Step 5: Access the Application
 Open the URL provided in the terminal to access the Gradio interface and start interacting with the Question-Answering Bot.
