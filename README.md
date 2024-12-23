@@ -35,8 +35,8 @@ Aquí tienes las instrucciones de instalación para tu repositorio:
 ### Step 1: Clone the Repository  
 Clone the repository to your local machine:  
 ```bash  
-git clone https://github.com/your-username/your-repo-name.git  
-cd your-repo-name  
+git clone https://github.com/sebaskhe/rag-chatbot-with-langchain.git  
+cd rag-chatbot-with-langchain  
 ```  
 
 ### Step 2: Set Up a Virtual Environment  
@@ -85,5 +85,3 @@ With the environment set up and dependencies installed, you're ready to run the 
 Open the URL provided in the terminal to access the Gradio interface and start interacting with the Question-Answering Bot.  
 
 ---
-
-Recuerda reemplazar `your-username` y `your-repo-name` con la información de tu repositorio.
