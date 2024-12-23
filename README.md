@@ -26,33 +26,42 @@ PDF Document Loaders
 Vector Databases and Retrieval Systems
 
 
-Installation Guide
+Aquí tienes las instrucciones de instalación para tu repositorio:  
 
-Clone the repository to your local machine:
+---
 
-git clone https://github.com/sebaskhe/RAG-Chatbot_with_Langchain.git  
-cd RAG-Chatbot_with_Langchain
+## Installation Guide  
 
-Step 2: Set Up a Virtual Environment
-Setting up a virtual environment helps manage dependencies for this project.
+### Step 1: Clone the Repository  
+Clone the repository to your local machine:  
+```bash  
+git clone https://github.com/your-username/your-repo-name.git  
+cd your-repo-name  
+```  
 
-Install virtualenv (if not already installed):
+### Step 2: Set Up a Virtual Environment  
+Setting up a virtual environment helps manage dependencies for this project.  
+1. Install `virtualenv` (if not already installed):  
+   ```bash  
+   pip install virtualenv  
+   ```  
+2. Create a virtual environment named `my_env`:  
+   ```bash  
+   virtualenv my_env  
+   ```  
+3. Activate the virtual environment:  
+   - On Linux/macOS:  
+     ```bash  
+     source my_env/bin/activate  
+     ```  
+   - On Windows:  
+     ```bash  
+     my_env\Scripts\activate  
+     ```  
 
-pip install virtualenv  
-Create a virtual environment named my_env:
-virtualenv my_env  
-Activate the virtual environment:
-On Linux/macOS:
-bash
-Copiar código
-source my_env/bin/activate  
-On Windows:
-
-my_env\Scripts\activate  
-Step 3: Install Required Libraries
-Install the necessary dependencies in the virtual environment:
-
-
+### Step 3: Install Required Libraries  
+Install the necessary dependencies in the virtual environment:  
+```bash  
 python3.11 -m pip install \  
 gradio==4.44.0 \  
 ibm-watsonx-ai==1.1.2 \  
@@ -62,12 +71,19 @@ langchain-ibm==0.1.11 \
 chromadb==0.4.24 \  
 pypdf==4.3.1 \  
 pydantic==2.9.1  
-Step 4: Run the Application
-With the environment set up and dependencies installed, you're ready to run the application.
+```  
 
-Ensure the virtual environment is active.
-Execute the main script:
+### Step 4: Run the Application  
+With the environment set up and dependencies installed, you're ready to run the application.  
+1. Ensure the virtual environment is active.  
+2. Execute the main script:  
+   ```bash  
+   python3.11 qabot.py  
+   ```  
 
-python3.11 qabot.py  
-Step 5: Access the Application
-Open the URL provided in the terminal to access the Gradio interface and start interacting with the Question-Answering Bot.
+### Step 5: Access the Application  
+Open the URL provided in the terminal to access the Gradio interface and start interacting with the Question-Answering Bot.  
+
+---
+
+Recuerda reemplazar `your-username` y `your-repo-name` con la información de tu repositorio.
