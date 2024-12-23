@@ -32,7 +32,7 @@ Clone the repository to your local machine:
 
 bash
 Copiar código
-git clone https://github.com/your-username/your-repo-name.git  
+git clone https://github.com/sebaskhe/RAG-Chatbot_with_Langchain.git  
 cd your-repo-name  
 Step 2: Set Up a Virtual Environment
 Setting up a virtual environment helps manage dependencies for this project.
