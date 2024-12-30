@@ -22,13 +22,13 @@ def get_llm():
         GenParams.MAX_NEW_TOKENS: 256,
         GenParams.TEMPERATURE: 0.5,
     }
-    project_id = "13e63eec-347c-4376-a62c-47999161c12a"
+    project_id = "your_project_id_from_ibm_watsonai"
     watsonx_llm = WatsonxLLM(
         model_id=model_id,
         url="https://us-south.ml.cloud.ibm.com",
         project_id=project_id,
         params=parameters,
-        apikey='wNxOJ88H6JOMmfX_P1Kby-UAiZ7W6N-WWfQvQOMcFhPn'
+        apikey='you-api-ky-from-imb'
     )
     return watsonx_llm
 
